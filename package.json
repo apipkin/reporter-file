@@ -1,17 +1,27 @@
 {
   "name": "reporter-file",
   "description": "Similar to the xunit-file reporter. Allows you to specify any report style to run, but will also write to the specified xunit file",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Anthony Pipkin <a.pipkin@yahoo.com>",
-  "bugs": {
-    "url": "https://github.com/apipkin/reporter-file/issues"
-  },
+  "contributors": [
+    {
+      "name": "Graham Losee",
+      "email": "grahamlosee@gmail.com"
+    },
+    {
+      "name": "Simen Bekkhus",
+      "email": "sbekkhus91@gmail.com"
+    }
+  ],
   "homepage": "https://github.com/apipkin/reporter-file",
   "keywords": [
     "mocha",
     "file",
     "reporter"
   ],
+  "bugs": {
+    "url": "https://github.com/apipkin/reporter-file/issues"
+  },
   "dependencies": {
     "intercept-stdout": "0.0.3",
     "mocha": "~1.17.0"
